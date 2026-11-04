@@ -1,0 +1,12 @@
+Transport Heavy numeral artwork
+
+Transport Heavy is subject to Crown Copyright, and this font contains public
+sector information licensed under the Open Government Licence v1.0.
+Font file produced by Nathaniel Porter, distributed by Roads.org.uk (formerly CBRD).
+Source: https://www.roads.org.uk/fonts
+Download: https://www.roads.org.uk/sites/default/files/pages/fonts/transportheavy.zip
+Licence: https://www.nationalarchives.gov.uk/doc/open-government-licence/version/1/
+
+UK Railways derives only numeral raster artwork from this font. No endorsement
+by the Department for Transport, the font creator or Roads.org.uk is implied.
+The supplied source readme is retained in art/fonts/transport-heavy/transportheavy.
