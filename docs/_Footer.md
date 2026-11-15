@@ -1,1 +1,1 @@
-Create: UK Railways 1.0.0-rc.3 · [Downloads](https://github.com/Red463/UKRailways/releases) · [Report an issue](https://github.com/Red463/UKRailways/issues)
+Create: UK Railways 1.0.0-rc.4 · [Downloads](https://github.com/Red463/UKRailways/releases) · [Report an issue](https://github.com/Red463/UKRailways/issues)

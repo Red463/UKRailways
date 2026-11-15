@@ -1,4 +1,4 @@
-# UK Railways 1.0.0-rc.3 installation
+# UK Railways 1.0.0-rc.4 installation
 
 ## Requirements
 
@@ -21,7 +21,7 @@ to force an incompatible version to load.
 1. Stop the server and close Minecraft clients.
 2. Back up the server world before first installing or updating this mod.
 3. Remove any older `ukrailways-*.jar` from the server's `mods` folder.
-4. Copy `ukrailways-1.0.0-rc.3.jar` into that folder.
+4. Copy `ukrailways-1.0.0-rc.4.jar` into that folder.
 5. Put that same JAR in each player's Minecraft instance `mods` folder, removing
    their previous UK Railways JAR too. Keep only one UK Railways version installed.
 6. Start the server and clients. Check the server log for UK Railways loading errors

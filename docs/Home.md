@@ -1,6 +1,6 @@
 # Create: UK Railways player guide
 
-Start with [Your first UK railway](Getting-Started.md). This guide covers **1.0.0-rc.3**, a release candidate for Minecraft 1.21.1, NeoForge and Create 6.0.10.
+Start with [Your first UK railway](Getting-Started.md). This guide covers **1.0.0-rc.4**, a release candidate for Minecraft 1.21.1, NeoForge and Create 6.0.10.
 
 Create retains train movement authority. Some station details are decorative; each feature guide explains its actual interactions. Use [Crafting](Crafting.md) for recipes and the [catalogue](Block-and-Item-Catalogue.md) to look up every shipped block/item ID.
 

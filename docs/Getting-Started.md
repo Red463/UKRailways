@@ -1,6 +1,6 @@
 # Your first UK railway
 
-This guide is for **1.0.0-rc.3**, a release candidate for Minecraft 1.21.1 and
+This guide is for **1.0.0-rc.4**, a release candidate for Minecraft 1.21.1 and
 NeoForge. Begin in a creative test world so you can learn the tools before building
 in survival. The mod adds to Create's train system; its stations, schedules and
 track signals still provide the underlying railway operation.
