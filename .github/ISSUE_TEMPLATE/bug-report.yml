@@ -1,0 +1,139 @@
+{
+  "name": "Bug report",
+  "description": "Report crashes, broken behaviour, visual problems or poor performance.",
+  "title": "[Bug]: ",
+  "body": [
+    {
+      "type": "markdown",
+      "attributes": {
+        "value": "Describe one problem per report. Exact versions and reproduction steps help us investigate. Issues are public. Redact tokens, passwords, session/account details, server addresses and personal information from logs and screenshots. Do not attach world saves or authentication configuration."
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "summary",
+      "attributes": {
+        "label": "What happened?",
+        "description": "Describe the problem and what you expected instead."
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "reproduction",
+      "attributes": {
+        "label": "Steps to reproduce",
+        "description": "Number the steps, including relevant blocks, track layouts or settings. If intermittent, say how often it happens."
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "input",
+      "id": "ukrailways-version",
+      "attributes": {
+        "label": "UK Railways version",
+        "description": "Use the exact installed JAR version, for example 1.0.0-rc.4."
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "environment",
+      "attributes": {
+        "label": "Minecraft, loader and Create versions",
+        "description": "List exact Minecraft, NeoForge and Create versions. Include operating system and Java version if known.",
+        "placeholder": "Minecraft:\nNeoForge:\nCreate:\nJava / OS:"
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "input",
+      "id": "modpack",
+      "attributes": {
+        "label": "Modpack and version",
+        "description": "For example ATM10 with its exact pack version, or a custom mod list."
+      },
+      "validations": {
+        "required": false
+      }
+    },
+    {
+      "type": "dropdown",
+      "id": "side",
+      "attributes": {
+        "label": "Where does it happen?",
+        "options": [
+          "Singleplayer",
+          "Multiplayer client",
+          "Dedicated server",
+          "Multiple environments",
+          "Unsure"
+        ]
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "rendering",
+      "attributes": {
+        "label": "Rendering or performance details (if relevant)",
+        "description": "List Iris, Sodium, Flywheel and Colorwheel versions; shader pack/version and settings; FPS before/after; and whether disabling shaders changes the problem. For track issues, note curves, junctions, mixed materials and schematic previews."
+      },
+      "validations": {
+        "required": false
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "evidence",
+      "attributes": {
+        "label": "Logs, screenshots or profile",
+        "description": "Attach relevant latest.log/crash report excerpts, screenshots or a client Spark profile link. Include capture conditions and timing for performance reports. Redact private data first; these are optional."
+      },
+      "validations": {
+        "required": false
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "isolation",
+      "attributes": {
+        "label": "What have you tried?",
+        "description": "List comparisons or workarounds. Use a copied world for track replacement or mod-removal tests."
+      },
+      "validations": {
+        "required": false
+      }
+    },
+    {
+      "type": "checkboxes",
+      "id": "checks",
+      "attributes": {
+        "label": "Before submitting",
+        "options": [
+          {
+            "label": "I searched existing issues for the same problem.",
+            "required": true
+          },
+          {
+            "label": "I have removed private information from any attachments or links.",
+            "required": true
+          }
+        ]
+      },
+      "validations": {
+        "required": false
+      }
+    }
+  ]
+}

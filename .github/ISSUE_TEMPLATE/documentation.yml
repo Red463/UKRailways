@@ -1,0 +1,77 @@
+{
+  "name": "Documentation or guide issue",
+  "description": "Report missing, confusing or outdated player instructions.",
+  "title": "[Docs]: ",
+  "body": [
+    {
+      "type": "markdown",
+      "attributes": {
+        "value": "Help improve the player guide, wiki and installation instructions. Issues are public. Redact tokens, passwords, session/account details, server addresses and personal information from logs and screenshots. Do not attach world saves or authentication configuration."
+      }
+    },
+    {
+      "type": "input",
+      "id": "page",
+      "attributes": {
+        "label": "Page or link",
+        "description": "Link to the guide/wiki page, or describe where you saw the text."
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "problem",
+      "attributes": {
+        "label": "What is wrong or missing?",
+        "description": "Explain the unclear, incorrect or outdated instruction."
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "suggestion",
+      "attributes": {
+        "label": "Suggested correction",
+        "description": "Describe what would make the instructions useful."
+      },
+      "validations": {
+        "required": false
+      }
+    },
+    {
+      "type": "input",
+      "id": "version",
+      "attributes": {
+        "label": "UK Railways version",
+        "description": "Include the version if behaviour differs from the guide."
+      },
+      "validations": {
+        "required": false
+      }
+    },
+    {
+      "type": "checkboxes",
+      "id": "checks",
+      "attributes": {
+        "label": "Before submitting",
+        "options": [
+          {
+            "label": "I searched existing issues for the same problem.",
+            "required": true
+          },
+          {
+            "label": "I have removed private information from any attachments or links.",
+            "required": true
+          }
+        ]
+      },
+      "validations": {
+        "required": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "name": "Feature request",
+  "description": "Suggest a new block, railway feature or improvement.",
+  "title": "[Feature]: ",
+  "body": [
+    {
+      "type": "markdown",
+      "attributes": {
+        "value": "Tell us what you want to achieve and why. Suggestions are welcome, but submission does not guarantee implementation. Issues are public. Redact tokens, passwords, session/account details, server addresses and personal information from logs and screenshots. Do not attach world saves or authentication configuration."
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "problem",
+      "attributes": {
+        "label": "What would this help you do?",
+        "description": "Describe the railway, building or gameplay need."
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "proposal",
+      "attributes": {
+        "label": "Suggested feature",
+        "description": "Describe how you would expect it to work for a player."
+      },
+      "validations": {
+        "required": true
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "alternatives",
+      "attributes": {
+        "label": "Existing options or alternatives",
+        "description": "Mention current workarounds or other ways to meet the same need."
+      },
+      "validations": {
+        "required": false
+      }
+    },
+    {
+      "type": "textarea",
+      "id": "references",
+      "attributes": {
+        "label": "Examples or references",
+        "description": "Optional screenshots, sketches or public reference links. Link to artwork sources rather than uploading material you do not have permission to share."
+      },
+      "validations": {
+        "required": false
+      }
+    },
+    {
+      "type": "input",
+      "id": "version",
+      "attributes": {
+        "label": "Current UK Railways version",
+        "description": "Helps distinguish new requests from features already available."
+      },
+      "validations": {
+        "required": false
+      }
+    },
+    {
+      "type": "checkboxes",
+      "id": "checks",
+      "attributes": {
+        "label": "Before submitting",
+        "options": [
+          {
+            "label": "I searched existing issues for the same problem.",
+            "required": true
+          },
+          {
+            "label": "I have removed private information from any attachments or links.",
+            "required": true
+          }
+        ]
+      },
+      "validations": {
+        "required": false
+      }
+    }
+  ]
+}

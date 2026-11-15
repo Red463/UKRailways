@@ -1,0 +1,15 @@
+{
+  "blank_issues_enabled": true,
+  "contact_links": [
+    {
+      "name": "Player guide and troubleshooting",
+      "url": "https://github.com/Red463/UKRailways/wiki",
+      "about": "Read installation instructions, feature guides and shader troubleshooting."
+    },
+    {
+      "name": "Download the latest release",
+      "url": "https://github.com/Red463/UKRailways/releases",
+      "about": "Check available versions and release notes before reporting an issue."
+    }
+  ]
+}
