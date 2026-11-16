@@ -1,6 +1,6 @@
 # Block and item catalogue
 
-This index covers **192 block IDs** and **49 named item entries**, merging shared block/item IDs. IDs use the `ukrailways:` namespace. Internal helper blocks and assembly intermediates are labelled; they are not all separately obtainable items.
+This index covers **193 block IDs** and **50 named item entries**, merging shared block/item IDs. IDs use the `ukrailways:` namespace. Internal helper blocks and assembly intermediates are labelled; they are not all separately obtainable items.
 
 Find materials and output quantities in [Crafting](Crafting.md). Road marking variants come from the Roadworks Workbench; train components also use Create manufacturing. A block state, mount or selected sign face does not necessarily have its own item.
 
@@ -233,6 +233,13 @@ Find materials and output quantities in [Crafting](Crafting.md). Road marking va
 | British Three-Aspect LED Signal | `three_aspect_signal_led` | Block | Link heads with the Railway Linking Tool; nameplates are independently editable identification panels. [Guide](Signals.md) |
 | British Two-Aspect Signal | `two_aspect_signal` | Block | Link heads with the Railway Linking Tool; nameplates are independently editable identification panels. [Guide](Signals.md) |
 | British Two-Aspect LED Signal | `two_aspect_signal_led` | Block | Link heads with the Railway Linking Tool; nameplates are independently editable identification panels. [Guide](Signals.md) |
+
+## Station entrances
+
+| Name | ID | Type | Use and instructions |
+| --- | --- | --- | --- |
+| Automatic Sliding Door | `automatic_door` | Block | Place single or paired sliding doors; attach a sensor for proximity operation and toggle its chime. [Guide](Automatic-Doors.md) |
+| Automatic Door Sensor | `automatic_door_sensor` | Item | Place single or paired sliding doors; attach a sensor for proximity operation and toggle its chime. [Guide](Automatic-Doors.md) |
 
 ## Station equipment
 

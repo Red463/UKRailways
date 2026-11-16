@@ -4,13 +4,13 @@
 
 Build a British railway with Create: mainline signals, semaphores, shunts,
 automatic crossings, concrete sleeper track, Greater Anglia train kits, stations,
-passenger information, tickets, road signs and trackside equipment.
+passenger information, tickets, automatic station doors, road signs and trackside equipment.
 
-**Current download: 1.0.0-rc.4 (prerelease)**
+**Current download: 1.0.0-rc.5 (prerelease)**
 
 ## Download and install
 
-1. [Download ukrailways-1.0.0-rc.4.jar](https://github.com/Red463/UKRailways/releases/download/v1.0.0-rc.4/ukrailways-1.0.0-rc.4.jar).
+1. [Download ukrailways-1.0.0-rc.5.jar](https://github.com/Red463/UKRailways/releases/download/v1.0.0-rc.5/ukrailways-1.0.0-rc.5.jar).
 2. Use **Minecraft 1.21.1**, **Java 21**, **NeoForge 21.1.251** and **Create 6.0.10**
    with its normal dependencies. JEI is optional.
 3. Put the same UK Railways JAR in the server and every client's `mods` folder.
@@ -20,7 +20,7 @@ passenger information, tickets, road signs and trackside equipment.
 Use the **JAR under Releases → Assets**, not GitHub's automatic source archives.
 Current HD artwork is bundled; no separate resource pack is required.
 See [all releases](https://github.com/Red463/UKRailways/releases) and
-[rc.4 release notes](docs/Release-Notes.md).
+[rc.5 release notes](docs/Release-Notes.md).
 
 ## Player guide
 

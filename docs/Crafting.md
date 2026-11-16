@@ -1,6 +1,6 @@
 # Crafting recipes
 
-152 obtainable items have primary crafting or Create assembly recipes and matching recipe-book unlocks. These are the authoritative current patterns.
+154 obtainable items have primary crafting or Create assembly recipes and matching recipe-book unlocks. These are the authoritative current patterns.
 
 Material rules: parent full blocks make slabs (three to six); six asphalt blocks make four stairs. Engineering-brick retaining blocks use two grey terracotta over two individual brick items. Lighting uses luminous components; moving equipment uses mechanisms; frames, benches and signs use their visible materials.
 
@@ -8,6 +8,8 @@ Grids use / between rows and . for empty slots. Ingredient letters are listed pe
 
 | Item | Pattern / ingredients | Output |
 |---|---|---|
+| Automatic Sliding Door | `IGI/IGI/IPI` - I = Iron Ingot, G = Glass Pane, P = Piston | 1 |
+| Automatic Door Sensor | `IRI/RQR` - I = Iron Ingot, R = Redstone, Q = Quartz | 1 |
 | Train Air Horn | `I.I/BCB/.I.`  -  I = Iron Ingot, B = Copper Ingot, C = Note Block | 1 |
 | Under-canopy Strip Light | `NGN`  -  N = Iron Nugget, G = Glowstone | 2 |
 | Level Crossing Half Barrier | `WWW/RIR/.DP`  -  W = White Wool, R = Red Dye, I = Iron Ingot, D = Redstone, P = Piston | 1 |

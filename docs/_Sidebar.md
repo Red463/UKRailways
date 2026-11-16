@@ -41,6 +41,7 @@
 - [Station Speakers](Station-Speakers.md)
 - [Tickets](Tickets.md)
 - [Ticket Barriers](Ticket-Barriers.md)
+- [Automatic Doors](Automatic-Doors.md)
 
 **Roads and trackside**
 

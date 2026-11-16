@@ -4,7 +4,7 @@
 
 Use Minecraft 1.21.1, Java 21, NeoForge 21.1.251 and Create 6.0.10. Install the
 same UK Railways JAR on the server and every client. Keep only one version in
-each mods folder. This is **1.0.0-rc.4**, a release candidate, not the final 1.0.
+each mods folder. This is **1.0.0-rc.5**, a release candidate, not the final 1.0.
 Back up worlds before updating. Full ATM10 multiplayer acceptance remains pending.
 
 ## Missing curved sleepers with shaders
@@ -19,7 +19,7 @@ other combinations and every schematic have not been verified.
 
 ## Frame drops when showing a schematic preview
 
-Update to rc.4. It includes the rc.3 fix that prevents schematic previews from repeatedly clearing the
+Update to rc.5. It includes the rc.3 fix that prevents schematic previews from repeatedly clearing the
 placed-track junction geometry cache. Previews use ordinary sleepers; placed
 junctions retain detailed overlap clipping. Large previews still cost rendering
 time. The regression replay verified cache reuse; it is not a full-pack FPS test.
