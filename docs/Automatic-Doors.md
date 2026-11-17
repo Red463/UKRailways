@@ -1,6 +1,6 @@
 # Automatic sliding station doors
 
-Build glass station entrances with silver frames, white visibility dots and blue automatic-door notices. These are stationary building doors; train kits retain their own carriage doors.
+Build glass station entrances with silver frames, white visibility dots and white keep-clear / automatic-door stickers. These are stationary building doors; train kits retain their own carriage doors.
 
 ![Closed automatic station entrance](../assets/automatic-door-closed.png)
 
@@ -21,7 +21,7 @@ An attached sensor detects living players within three blocks on either side of 
 
 The entrance checks for approach every four game ticks. Opening and closing each take 12 ticks (0.6 seconds at 20 TPS). Doors remain open for 40 ticks (two seconds) after the last detected approach. Returning while they close reverses the movement smoothly.
 
-A separate safety check runs every tick across the opening. A living occupant holds or reopens the entrance, including an animal already passing through. This protection works without a sensor. Spectators and armour stands are ignored. Closed doors block walking; collision clears near the end of the opening movement, once the panels have moved aside.
+A separate safety check runs every tick across the opening. A living occupant holds or reopens the entrance, including an animal already passing through. This protection works without a sensor while the entrance is open or moving. Occupancy alone cannot activate a fully closed door: fit a sensor or supply redstone power. Spectators and armour stands are ignored. Closed doors block walking; collision clears near the end of the opening movement, once the panels have moved aside.
 
 Direct redstone power to either half of either leaf holds a paired entrance open. Removing power returns it to sensor, safety and closing-delay behaviour. A door without a sensor can be operated with redstone.
 
